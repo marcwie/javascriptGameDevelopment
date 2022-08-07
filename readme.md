@@ -12,6 +12,6 @@ Shows different animations from a spritesheet on canvas. Includes code for readi
 
 ## Parallax backgrounds
 
-Displays multiple background layers and moves them at various speeds to create an illusion of depth. Includes code for a class that holds each background layer and functionality for updating image positions and drawing on canvas. Code is found in `parallax_backgrounds`. 
+Displays multiple background layers and moves them at various speeds to create an illusion of depth. Includes code for a class that holds each background layer and functionality for updating image positions as well as drawing on canvas. Code is found in `parallax_backgrounds`. 
 
 ![](img/parallax.gif)
