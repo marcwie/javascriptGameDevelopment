@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 const canvasWidth = canvas.width = 800;
 const canvasHeight = canvas.height = 700;
 
-let gameSpeed = 5;
+let gameSpeed = 5; // The initial speed
 
 const backgroundLayer1 = new Image();
 backgroundLayer1.src = 'backgroundLayers/layer-1.png'
@@ -18,6 +18,7 @@ const backgroundLayer5 = new Image();
 backgroundLayer5.src = 'backgroundLayers/layer-5.png'
 
 class Layer {
+    // Computes position of each background image and draws on canvas
     constructor(image, speedModifier) {
         this.x = 0;
         this.y = 0;
@@ -39,9 +40,10 @@ class Layer {
 }
 
 window.addEventListener('load', function() {
+
     const slider = document.getElementById('slider');
-    slider.value = gameSpeed;
     const gameSpeedDisplay = document.getElementById('gameSpeedValue')
+    slider.value = gameSpeed;
     gameSpeedDisplay.innerHTML = gameSpeed;
 
     slider.addEventListener('change', (e) => {
