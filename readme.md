@@ -9,3 +9,9 @@ Currently contains the following projects:
 Shows different animations from a spritesheet on canvas. Includes code for reading values from a dropdown menu, precompute spritesheet positions and a function for sprite animation. All necessary code is found in `sprite_animations`. 
 
 ![](img/sprite.gif)
+
+## Parallax backgrounds
+
+Displays multiple background layers and moves them at various speeds to create an illusion of depth. Includes code for a class that holds each background layer and functionality for updating image positions and drawing on canvas. Code is found in `parallax_backgrounds`. 
+
+![](img/parallax.gif)
