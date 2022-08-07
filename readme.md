@@ -1,6 +1,6 @@
 # Game Development Projects
 
-Collection of smaller projects for game development with plan JavaScript. Mostly inspired by freecodecamp's [JavaScript Game Development Course for Beginners](https://www.youtube.com/watch?v=GFO_txvwK_c).
+Collection of smaller projects for game development with plain JavaScript. Mostly inspired by freecodecamp's [JavaScript Game Development Course for Beginners](https://www.youtube.com/watch?v=GFO_txvwK_c).
 
 Currently contains the following projects:
 
